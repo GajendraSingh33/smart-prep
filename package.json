@@ -1,0 +1,68 @@
+{
+  "name": "ai-question-generator-bot",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "type-check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@types/jspdf": "^2.0.0",
+    "@types/lodash": "^4.17.20",
+    "@types/multer": "^1.4.13",
+    "@types/node": "^20.0.0",
+    "@types/pdf-parse": "^1.1.5",
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "@types/uuid": "^9.0.8",
+    "csv-parser": "^3.2.0",
+    "html2canvas": "^1.4.1",
+    "jspdf": "^2.5.2",
+    "lodash": "^4.17.21",
+    "mammoth": "^1.11.0",
+    "multer": "^1.4.5-lts.1",
+    "next": "^14.0.0",
+    "openai": "^4.104.0",
+    "pdf-lib": "^1.17.1",
+    "pdf-parse": "^1.1.1",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "sharp": "^0.33.5",
+    "tesseract.js": "^4.1.4",
+    "typescript": "^5.0.0",
+    "uuid": "^9.0.1",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.1.13",
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "@typescript-eslint/parser": "^6.0.0",
+    "autoprefixer": "^10.4.16",
+    "eslint": "^8.0.0",
+    "eslint-config-next": "^14.0.0",
+    "postcss": "^8.4.31",
+    "tailwindcss": "^4.1.13"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
+  },
+  "description": "This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GajendraSingh33/smart-prep.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GajendraSingh33/smart-prep/issues"
+  },
+  "homepage": "https://github.com/GajendraSingh33/smart-prep#readme"
+}

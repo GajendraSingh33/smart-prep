@@ -1,0 +1,35 @@
+[
+  {
+    "id": "639e6987-a3fe-492c-a412-e99e0a4047d4",
+    "text": "Define mechanics. - mechanics",
+    "topic": "easy",
+    "marks": 2,
+    "difficulty": "easy",
+    "tags": [],
+    "source": "manual",
+    "createdAt": "2025-09-22T18:01:21.564Z",
+    "updatedAt": "2025-09-22T18:01:21.566Z"
+  },
+  {
+    "id": "7fde08a5-62ec-41f7-872f-18c4cdadae39",
+    "text": "Explain key concepts of mechanics. - mechanics",
+    "topic": "medium",
+    "marks": 5,
+    "difficulty": "medium",
+    "tags": [],
+    "source": "manual",
+    "createdAt": "2025-09-22T18:01:30.783Z",
+    "updatedAt": "2025-09-22T18:01:30.784Z"
+  },
+  {
+    "id": "8623670b-9238-4abc-a9d8-2980f1a283e7",
+    "text": "probability",
+    "topic": "General",
+    "marks": 1,
+    "difficulty": "easy",
+    "tags": [],
+    "source": "manual",
+    "createdAt": "2025-09-24T19:10:43.932Z",
+    "updatedAt": "2025-09-24T19:10:43.933Z"
+  }
+]
