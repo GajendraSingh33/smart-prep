@@ -4,6 +4,8 @@ Smart Prep is an AI-driven web application that helps students prepare effective
 
 Built with Next.js and integrated with AI models, Smart Prep provides a personalized and efficient learning experience.
 
+
+
 ### 🚀 Features
 
 📂 Upload syllabus & previous year question papers
@@ -21,6 +23,8 @@ Built with Next.js and integrated with AI models, Smart Prep provides a personal
 📊 Smart question categorization & randomization
 
 
+
+
 ### 🛠️ Tech Stack
 
 Framework: Next.js(React 18+)
@@ -36,6 +40,8 @@ File Parsing: pdf-parse, mammoth, xlsx, tesseract.js
 Backend Tools: Node.js, Multer (file upload), Sharp (image processing)
 
 TypeScript: For type safety
+
+
 
 ### ⚙️ Installation
 
@@ -63,6 +69,8 @@ Open http://localhost:3000
  in your browser 🚀
 
 
+
+
 ### 📖 Usage
 
 Upload your syllabus and previous question papers
@@ -73,6 +81,8 @@ Download as PDF for offline use
 
 Practice smarter, not harder 🎯
 
+
+
 ### 📦 Deployment
 
 The recommended way to deploy is via Vercel :
@@ -80,6 +90,8 @@ The recommended way to deploy is via Vercel :
 vercel
 
 Alternatively, you can deploy on platforms like Netlify, AWS, or Docker.
+
+
 
 ### 🤝 Contributing
 
@@ -94,6 +106,8 @@ Commit changes: git commit -m 'Add new feature'
 Push to branch: git push origin feature-name
 
 Open a Pull Request
+
+
 
 
 ### 🌟 Acknowledgements
