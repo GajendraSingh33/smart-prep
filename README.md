@@ -1,36 +1,123 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+📘 Smart Prep – AI-Powered Exam Preparation Tool
 
-## Getting Started
+Smart Prep is an AI-driven web application that helps students prepare effectively for exams. By analyzing syllabus documents and previous year question papers, it generates sample question papers with answers that can be downloaded as PDFs.
 
-First, run the development server:
+Built with Next.js and integrated with AI models, Smart Prep provides a personalized and efficient learning experience.
 
-```bash
+🚀 Features
+
+📂 Upload syllabus & previous year question papers
+
+🤖 AI-generated sample question papers with answers
+
+📄 Export/download generated papers as PDF
+
+🎨 Modern UI with TailwindCSS
+
+⚡ Built on Next.js 14+ for performance & scalability
+
+🔍 OCR & document parsing (PDF, Word, Excel) support
+
+📊 Smart question categorization & randomization
+
+🛠️ Tech Stack
+
+Framework: Next.js
+ (React 18+)
+
+Styling: TailwindCSS
+
+AI Models: OpenAI
+ API integration
+
+PDF Generation: pdf-lib, jspdf, html2canvas
+
+File Parsing: pdf-parse, mammoth, xlsx, tesseract.js
+
+Backend Tools: Node.js, Multer (file upload), Sharp (image processing)
+
+TypeScript: For type safety
+
+⚙️ Installation
+
+Clone the repo
+
+git clone https://github.com/GajendraSingh33/smart-prep.git
+cd smart-prep
+
+
+Install dependencies
+
+npm install
+
+
+Set up environment variables
+Create a .env.local file in the root and add:
+
+OPENAI_API_KEY=your_api_key_here
+
+
+Run development server
+
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Open http://localhost:3000
+ in your browser 🚀
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+📂 Project Structure
+smart-prep/
+│
+├── app/               # Next.js App Router pages
+├── components/        # Reusable UI components
+├── lib/               # Utility functions
+├── utils/             # Helpers & processing scripts
+├── public/            # Static assets
+├── styles/            # TailwindCSS & global styles
+├── tsconfig.json      # TypeScript config
+└── package.json       # Project dependencies
 
-## Learn More
+📖 Usage
 
-To learn more about Next.js, take a look at the following resources:
+Upload your syllabus and previous question papers
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Generate custom question papers with answers
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Download as PDF for offline use
 
-## Deploy on Vercel
+Practice smarter, not harder 🎯
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+📦 Deployment
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+The recommended way to deploy is via Vercel
+:
+
+vercel
+
+
+Alternatively, you can deploy on platforms like Netlify, AWS, or Docker.
+
+🤝 Contributing
+
+Contributions are welcome!
+
+Fork the repo
+
+Create a new branch: git checkout -b feature-name
+
+Commit changes: git commit -m 'Add new feature'
+
+Push to branch: git push origin feature-name
+
+Open a Pull Request
+
+
+🌟 Acknowledgements
+
+Next.js
+
+OpenAI
+
+TailwindCSS
+
+All contributors and supporters 🙌
