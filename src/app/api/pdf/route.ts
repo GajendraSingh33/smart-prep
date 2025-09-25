@@ -28,7 +28,7 @@ export async function POST(request: NextRequest) {
 
     if (invalidQuestions.length > 0) {
       return NextResponse.json(
-        { success: false, error: 'All questions must have id, text, topic, marks, and difficulty' },
+        { success: false, error: 'All questions must have text, topic, marks, and difficulty' },
         { status: 400 }
       );
     }
@@ -46,14 +46,15 @@ export async function POST(request: NextRequest) {
     const timestamp = new Date().toISOString().slice(0, 19).replace(/:/g, '-');
     const filename = `question-paper-${timestamp}.pdf`;
 
-    // Set appropriate headers for PDF download
+    // Set headers for PDF download
     const headers = new Headers();
     headers.set('Content-Type', 'application/pdf');
     headers.set('Content-Disposition', `attachment; filename="${filename}"`);
     headers.set('Content-Length', pdfBuffer.length.toString());
     headers.set('Cache-Control', 'no-cache');
 
-    return new NextResponse(pdfBuffer, {
+    // Convert Buffer → Uint8Array so NextResponse accepts it
+    return new NextResponse(new Uint8Array(pdfBuffer), {
       status: 200,
       headers
     });
@@ -61,7 +62,11 @@ export async function POST(request: NextRequest) {
   } catch (error) {
     console.error('PDF generation error:', error);
     return NextResponse.json(
-      { success: false, error: 'Failed to generate PDF', details: error instanceof Error ? error.message : 'Unknown error' },
+      { 
+        success: false, 
+        error: 'Failed to generate PDF', 
+        details: error instanceof Error ? error.message : 'Unknown error' 
+      },
       { status: 500 }
     );
   }
